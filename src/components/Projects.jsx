@@ -3,13 +3,27 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import './Projects.css';
-import burnedSalesImage from '/src/assets/BurnedSales.png';
+import medBurnedImage from '/src/assets/MedBurned.png';
+import burnedjobs from '/src/assets/burnedjobs.png';
+import burnedSalesImage from '/src/assets/BurnedSales.png';  
 import confettiCalculatorImage from '/src/assets/ConfettiCalculator.png';
 import chaskaImage from '/src/assets/chaska.png';
 import kkImage from '/src/assets/kk.png';
 
 const Projects = () => {
   const projectList = [
+    {
+      title: 'MedBurned',
+      description: 'MedBurned is a decentralised blockchain-based health data management system built with JavaScript, Next.js, Node.js, and Solidity. It enables patients and doctors to have unique wallet addresses, role-based registration, and government-admin approval for doctors. Patients can choose doctors, share medical histories updated by consulting doctors, order medicines, and chat securely. All records are stored immutably on the blockchain.',
+      image: medBurnedImage,
+      link: 'https://medburned.netlify.app/'
+    },
+    {
+      title: 'BurnedJobs',
+      description: 'BurnedJobs is a full-stack job application tracking system built with React.js, Node.js, Express.js, and MongoDB. It features secure JWT-based authentication with separate applicant and admin panel, enabling users to add, edit, delete, and view job applications with statuses like Applied, Interview, Offer, Rejected, and Accepted. The system provides filtered and sorted job lists, responsive UI with validated forms, a REST API backend for CRUD operations.',
+      image: burnedjobs,
+      link: 'https://github.com/BuRNedS/Burned-Jobs'
+    },
     {
       title: 'BurnedSales',
       description: 'MERN Based E-commerce platform, includes a Node.js and Express backend with RESTful API endpoints for user authentication (registration and login with JWT), product management (CRUD operations for admins), and shopping cart functionality. The React frontend interacts with these APIs, featuring components for authentication forms, product listings, product details, and a shopping cart, managed with Redux for state management and React Router for navigation.',

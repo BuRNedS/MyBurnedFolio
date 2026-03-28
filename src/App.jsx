@@ -13,14 +13,19 @@ import './About.css'; // Import About.css for about section styles
 import './Skills.css'; // Import Skills.css for skills section styles
 import './HireMe.css'; // Import Hire Me.css for hire me section styles
 import BurnedSales from './assets/BurnedSales.png';
-import CarousalImg1 from './assets/carousalImg1.png';
-import CarousalImg2 from './assets/carousalImg2.png';
-import CarousalImg3 from './assets/carousalImg3.png';
-import CarousalImg4 from './assets/carousalImg4.png';
-import CarousalImg5 from './assets/carousalImg5.png';
-import CarousalImg6 from './assets/carousalImg6.png';
+import CI0 from './assets/BurnedSales.png';
+import CI1 from './assets/carousalImg2.png';
+import CI2 from './assets/carousalImg3.png';
+import CI3 from './assets/carousalImg4.png';
+import CI4 from './assets/CI10.png';
+import CI5 from './assets/CI2.png';
+import CI6 from './assets/CI6.png';
+import CI7 from './assets/CI9.png';
+import CI8 from './assets/chaska.png';
+import CI9 from './assets/kk.png';
+import CI10 from './assets/filter.png';
 import Resume from './assets/Resume.pdf';
-import profile from './assets/profile.jpg';
+import profile from './assets/profile.png';
 import reactIcon from '/src/assets/icons/react.png';
 import nodeIcon from '/src/assets/icons/node.png';
 import expressIcon from '/src/assets/icons/express.png';
@@ -78,7 +83,7 @@ function App() {
               <div className="typewriter-text anton-sc-regular">
                 <Typewriter
                   options={{
-                    strings: ["Full Stack Developer", "MERN Stack Developer", "Competitive Programmer"],
+                    strings: ["Full Stack Developer", "MERN Stack Developer", "Blockchain Developer"],
                     autoStart: true,
                     loop: true,
                   }}
@@ -95,29 +100,43 @@ function App() {
             </div>
           </div>
           <div className="home-carousel">
-            <h1 className='anton-sc-regular'>My Recent Project</h1>
+            <h1 className='anton-sc-regular'>My Projects</h1>
             <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
+      
             <div className="carousel-item active">
-              <img src={BurnedSales} alt="Burned Sales" />
+              <img src={CI0} alt="Carousel Image 1" />
             </div>
             <div className="carousel-item">
-              <img src={CarousalImg1} alt="Carousel Image 1" />
+              <img src={CI1} alt="Carousel Image 1" />
             </div>
             <div className="carousel-item">
-              <img src={CarousalImg2} alt="Carousel Image 2" />
+              <img src={CI2} alt="Carousel Image 1" />
             </div>
             <div className="carousel-item">
-              <img src={CarousalImg3} alt="Carousel Image 3" />
+              <img src={CI3} alt="Carousel Image 1" />
             </div>
             <div className="carousel-item">
-              <img src={CarousalImg4} alt="Carousel Image 4" />
+              <img src={CI4} alt="Carousel Image 1" />
             </div>
             <div className="carousel-item">
-              <img src={CarousalImg5} alt="Carousel Image 5" />
+              <img src={CI5} alt="Carousel Image 1" />
             </div>
             <div className="carousel-item">
-              <img src={CarousalImg6} alt="Carousel Image 6" />
+              <img src={CI6} alt="Carousel Image 1" />
             </div>
+            <div className="carousel-item">
+              <img src={CI7} alt="Carousel Image 1" />
+            </div>
+            <div className="carousel-item">
+              <img src={CI8} alt="Carousel Image 1" />
+            </div>
+            <div className="carousel-item">
+              <img src={CI9} alt="Carousel Image 1" />
+            </div>
+            <div className="carousel-item">
+              <img src={CI10} alt="Carousel Image 1" />
+            </div>
+            
             </Carousel>
           </div>
         </div>
@@ -126,10 +145,10 @@ function App() {
             <div className="about-text raleway-desc">
             <h1 className='anton-sc-regular'>About Me</h1>
               <p className='para1'>
-              I am a Full stack web developer who is passionate about revolutionizing the world through Web Technology. With a solid background in Computer Science, I am a hardworker,good learner and opportunist person.
+              I am a Developer who is passionate about revolutionizing the world through Web Technology. With a solid background in Computer Science, I am a hardworker,good learner and opportunist person.
               </p> <br />
               <p className='para2'>I've already worked on a few projects where I've worked on various technologies. My hobbies includes coding,travelling & Content Writting.</p> <br />
-              <p className='para3'>I am not content with just the basics. I am eager to learn more about Web3.0 technologies and DevOps. I am seeking the opportunity to work with a team of experienced Web developers and contribute to real-world projects.</p>
+              <p className='para3'>I am not content with just the basics. I am eager to learn more about Web3.0 technologies and DevOps. I am seeking the opportunity to work with a team of experienced Developers and contribute to real-world projects.</p>
               
               <a href="https://leetcode.com/u/BuRNedS/" target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="leetcode" className="leetcode-icon">
